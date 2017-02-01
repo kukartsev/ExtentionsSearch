@@ -15,7 +15,6 @@ namespace ExtentionsSearch.ViewModel
         private Searcher searcher;
         private double progress;
         private Boolean indeterminate;
-        private Boolean vayOfSort;
         private ObservableCollection<ExtentionInfo> extentionsList;
         private ObservableCollection<ExtentionInfo> extentionsListForPie;
         private string targetPath;
@@ -96,15 +95,6 @@ namespace ExtentionsSearch.ViewModel
             get { return !indeterminate; }
         }
 
-        public Boolean VayOfSort
-        {
-            get { return vayOfSort; }
-            set
-            {
-                vayOfSort = value;
-                OnPropertyChanged("VayOfSort");
-            }
-        }
 
         public string LastCheckInfo
         {
@@ -164,7 +154,6 @@ namespace ExtentionsSearch.ViewModel
         }
         private void SortByTotalSize(object arg)
         {
-            VayOfSort = false;
             ExtentionsList = new ObservableCollection<ExtentionInfo>(ExtentionsList.OrderByDescending(ext => ext.TotalSize));
             ExtentionsListForPie = new ObservableCollection<ExtentionInfo>(ExtentionsList.Take(20));
         }
@@ -179,7 +168,6 @@ namespace ExtentionsSearch.ViewModel
         }
         private void SortByNumberOfFiles(object arg)
         {
-            VayOfSort = true;
             ExtentionsList = new ObservableCollection<ExtentionInfo>(ExtentionsList.OrderByDescending(ext => ext.NumberOfFiles));
             ExtentionsListForPie = new ObservableCollection<ExtentionInfo>(ExtentionsList.Take(20));
         }
