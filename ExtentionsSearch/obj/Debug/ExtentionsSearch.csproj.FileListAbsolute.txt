@@ -1,0 +1,15 @@
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch.csprojResolveAssemblyReference.cache
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\View\MainWindow.g.cs
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\App.g.cs
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch_MarkupCompile.cache
+D:\Code\ExtentionsSearch\ExtentionsSearch\bin\Debug\ExtentionsSearch.exe
+D:\Code\ExtentionsSearch\ExtentionsSearch\bin\Debug\ExtentionsSearch.pdb
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\View\MainWindow.baml
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch.g.resources
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch.Properties.Resources.resources
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch.csproj.GenerateResource.Cache
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch.exe
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch.pdb
+D:\Code\ExtentionsSearch\ExtentionsSearch\bin\Debug\ExtentionsSearch.exe.config
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Code\ExtentionsSearch\ExtentionsSearch\obj\Debug\ExtentionsSearch_MarkupCompile.lref
